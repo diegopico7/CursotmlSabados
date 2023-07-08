@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tablas</title>
+  <style>
+    h4 {
+      color: blue;
+    }
+
+    p {
+      color: chocolate;
+      font-size: 18px;
+    }
+  </style>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <ul>
+    <li><a href="">Grupos</a></li>
+    <li><a href="#cuartos">Cuartos Final</a></li>
+    <li><a href="">Semifinal</a></li>
+  </ul>
+
+
+  <h2 style="color: brown;">Tablas</h2>
+  <p>para insertar tablas usamos la etiqueta table y para crear filas tr y para el contenido de cada celda td, si
+    queremos que una celda ocupe cierta cantidad de columnas usamos el colspan y el numero de columnas que cubrimos si
+    queremos que una celda ocupe varias filas usamos rowspan y el numero correspondiente</p>
+
+  <h4>Goleadores WC2022</h4>
+  <h6>Tabla común</h6>
+  <table>
+    <tr>
+      <td>Nombre</td>
+      <td>Goles</td>
+      <td>Asistencia</td>
+    </tr>
+    <tr>
+      <td>Mbape</td>
+      <td>8</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Messi</td>
+      <td>7</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>Alvarez</td>
+      <td>4</td>
+      <td>3</td>
+    </tr>
+  </table>
+
+  <br><br><br><br>
+
+
+  <table>
+    <thead>
+      <th colspan="3">Goleadores WC2022</th>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Nombre</td>
+        <td>Goles</td>
+        <td>Asistencia</td>
+      </tr>
+      <tr>
+        <td>Mbape</td>
+        <td>8</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>Messi</td>
+        <td>7</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>Alvarez</td>
+        <td>4</td>
+        <td>3</td>
+      </tr>
+    <tfoot>
+      <td colspan="3"><b><small>Estos son los goleadores del mundial 2022</small></b></td>
+    </tfoot>
+    </tbody>
+  </table>
+
+  <br><br><br><br>
+
+  <table>
+    <thead>
+      <th colspan="2">Selecciones campeonas del mundo</th>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Nombre </td>
+        <td>Año</td>
+      </tr>
+
+      <tr>
+        <td rowspan="2">Argentina</td>
+        <td>1978</td>
+      </tr>
+      <tr>
+
+        <td>1986</td>
+      </tr>
+      <tr>
+        <td rowspan="3">Brasil</td>
+        <td>2004</td>
+      </tr>
+      <tr>
+
+        <td>1968</td>
+      </tr>
+      <tr>
+
+        <td>1958</td>
+      </tr>
+      <tr>
+        <td>Alemania</td>
+        <td>1990</td>
+      </tr>
+
+
+
+
+
+    </tbody>
+
+
+
+
+  </table>
+
+  <br><br><br><br><br>
+
+  <table>
+    <thead id="cuartos">
+      <th colspan="3">Cuartos de finales</th>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Nombre</td>
+        <td>VS</td>
+        <td>Nombre</td>
+      </tr>
+      <tr>
+        <td>
+          Argentina
+        </td>
+        <td>-</td>
+        <td>Australia</td>
+      </tr>
+      <tr>
+        <td>2 (4)</td>
+        <td></td>
+        <td>1 (2)</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <td colspan="3">
+        Fixture completo WC2022</td>
+    </tfoot>
+  </table>
+
+  <h4>Listado jugadores x seleccion</h4>
+  <a href="">Argentina</a>
+  <ul>
+    <li>nombre1</li>
+    <li>nombre2</li>
+    <li>nombre3</li>
+    <li>nombre4</li>
+  </ul>
+
+  <br><br><br><br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br><br><br><br>
+  <a href="index.html"><img src="/imagenes/manito.png" alt=""></a>
+</body>
+
+</html>

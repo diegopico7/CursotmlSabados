@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formularios</title>
+</head>
+
+<body>
+
+  <h2>Formularios</h2>
+
+  <p>Para insertar formularios se usa la etiqueta form y es de apertura y cerrado, para insertar un campo se usa la
+    etiqueta input y es solo de apertura. A la etiqueta input podemos manipularla con los atributos correspondientes,
+    para darle una descripcion o nombre al campo se usa la etiqueta label. Algunos atributos para los input importantes
+    es placeholder, size, required, minlength, maxlength
+  </p>
+
+  <form>
+    <label for="texto">Campo de texto</label>
+    <input type="text" placeholder="Juan Lopez" size="30" name="texto">
+    <br>
+    <label for="numero">Numero</label>
+    <input type="number" placeholder="20" size="1" name="numero">
+    <br>
+    <label for="password">Contreaseña</label>
+    <input type="password" placeholder="contraseña" maxlength="8" minlength="5" required name="password">
+    <br>
+    <label for="email">Email:</label>
+    <input name="email" type="email" placeholder="jual@gmail.com">
+
+    <br>
+    <input type="date">
+    <input type="month">
+    <input type="week">
+    <input type="datetime-local">
+    <br>
+    <input type="file">
+    <br>
+    <input type="search">
+    <br>
+    <input type="tel">
+    <br>
+    <input type="url">
+    <br>
+    <input type="radio">
+    <br>
+    <input type="checkbox">
+    <br>
+    <input type="range">
+    <br>
+    <input type="image">
+    <br>
+    <input type="color">
+    <br>
+    <input type="submit">
+    <br>
+    <input type="reset">
+    <br>
+    <textarea cols="30" rows="10" placeholder="deje su comentario o pedido"></textarea>
+  </form>
+  <br>
+  <hr>
+  <br><br>
+  <h2>Radio</h2>
+  <br>
+
+  <h4>Elija su lenguaje favorito</h4>
+
+  <form action="">
+    <select>
+      <option></option>
+      <option>JS</option>
+      <option>PY</option>
+      <option>C</option>
+      <option>Rb</option>
+      <option>C#</option>
+    </select>
+    <input type="submit">
+    <input type="reset">
+  </form>
+  <br>
+  <h4>Idioma favorito</h4>
+  <form action="">
+    <select>
+      <option value="">Ingles</option>
+      <option value="">Castellano</option>
+      <option value="">Frances</option>
+    </select>
+    <input type="submit">
+    <input type="reset">
+  </form>
+
+  <form action="">
+    <h4>Elija su equipo</h4>
+    <label for="river">River</label>
+    <input type="radio" name="river">
+    <br>
+    <label for="boca">Boca</label>
+    <input type="radio" name="boca">
+    <br>
+    <label for="racing">Racing</label>
+    <input type="radio" name="racing">
+    <br>
+    <input type="submit">
+    <input type="reset">
+  </form>
+
+
+  <form action="">
+    <h4>Juego de memoria elija pais latinoamericano</h4>
+    <label for="">Argentina</label>
+    <input type="checkbox">
+    <label for="">España</label>
+    <input type="checkbox">
+    <label for="">Alemania</label>
+    <input type="checkbox">
+    <br>
+    <input type="submit">
+    <input type="reset">
+  </form>
+
+  <img src="/imagenes/ejercicioFormularios.png" alt="">
+  <br>
+  <img src="/imagenes/practicoHTMLSabados.png" alt="">
+  <br>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</body>
+
+</html>

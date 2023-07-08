@@ -1,0 +1,38 @@
+table {
+  border: 1px solid black;
+  margin: 0 auto;
+}
+
+th,
+td {
+  border: 1px dashed red;
+  background-color: aquamarine;
+  text-align: center;
+}
+
+.nombre {
+  width: 250px;
+}
+
+.edad {
+  width: 30px;
+}
+
+main {
+  background-color: aquamarine;
+}
+
+.temario {
+  background-color: burlywood;
+}
+
+.imagenes {
+  background-color: blueviolet;
+}
+
+.articulo1 {
+  background-color: blue;
+}
+.articulo2 {
+  background-color: brown;
+}

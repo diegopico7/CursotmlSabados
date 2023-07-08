@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+
+
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aprendiendo HTML</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main>
+
+
+    <section class="temario">
+      <h2 id="inicio">Temario o indice completo del curso</h2>
+      <ul>
+        <li><a href="index.html#titulo">Etiquetas de titulo</a></li>
+        <li><a href="index.html#textos">Etiquetas de textos</a></li>
+        <li><a href="index.html#imagenes">Imágenes</a></li>
+        <li><a href="index.html#saltos">Saltos de línea y línea semántica</a></li>
+        <li><a href="index.html#bloqueLinea">Etiquetas de bloque y línea</a></li>
+        <li><a href="index.html#semantica">Etiquetas semánticas </a></li>
+        <li><a href="index.html#listas">Listas</a></li>
+        <li><a href="index.html#enlaces">Enlaces externos e internos</a></li>
+        <li><a href="index.html#especiales">Enlaces a protocolos especiales </a></li>
+        <li><a href="index.html#tablas2">tablas</a></li>
+        <li><a href="index.html#estilos">Estilos en html</a></li>
+        <li><a href="index.html#audioVideo">Audio y video</a></li>
+        <li><a href="index.html#acordeon">Acordeon</a></li>
+        <li><a href="index.html#formularios">Formularios</a></li>
+      </ul>
+    </section>
+
+    <article>
+      <h2 id="titulos">Etiquetas de título</h2>
+      <h1>Curso HTML </h1>
+      <h2>En tucprogram</h2>
+      <h3>con el profe diego</h3>
+      <h4>tucuman</h4>
+      <h5>argentina</h5>
+      <h6>2023</h6>
+      <hr>
+    </article>
+
+    <article>
+      <h2 id="textos">Etiqueta de textos</h2>
+      <p>
+        <b> <u> <i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos nulla quo a cumque at suscipit eveniet
+              ad,
+              necessitatibus exercitationem esse amet sed commodi sint modi laborum saepe beatae deserunt? Rerum.
+            </i></u></b>
+      </p>
+      <p>Para darle <b>negrita</b> se usa la etiqueta b y es de apertura y cerrado</p>
+      <br> <br>
+      <p> <i> para poner el texto en cursiva</i> vamos a usar la etiqueta i y <u> para subrayar el texto </u> vamos a
+        usar
+        la etiqueta u </p>
+      <strong>Esta etiqueta es importante para el navegador</strong>
+    </article>
+    <!-- Esto es un comentario-->
+    <hr>
+    <br>
+
+    <section class="imagenes">
+      <h2 id="imagenes">Imágenes</h2>
+      <br>
+      <p>Para insertar una imágen en html se usa la etiqueta img y es solo de apertura tiene atributos que hay que darle
+        un
+        valor, importante la extensión de las img debe ser jpg, svg, png, gift.</p>
+      <article class="articulo1">
+        <img src="./imagenes/descarga.png" alt="logo-html" width="100px" height="100px" title="Logo">
+        <img src="./imagenes/cuerpohtml.png" alt="">
+      </article>
+      <article class="articulo2">
+        <figure>
+          <img src="/imagenes/descarga.png" alt="logo-html">
+          <figcaption>Este es el logo de html</figcaption>
+
+        </figure>
+
+        <a href="index.html#inicio"><img src="/imagenes/manito.png" alt="" width="80px" height="auto"></a>
+      </article>
+    </section>
+
+    <br>
+    <hr>
+    <article>
+      <h2 id="saltos">etiquetas salto de linea y linea semantica</h2>
+      <p>la etiqueta br es para dar saltos de linea y es etiqueta de apertura</p>
+      <p>Etiqueta hr es para trazar una linea semántica</p>
+    </article>
+
+
+    <article>
+      <h2 id="bloqueLinea">Etiquetas de bloque y linea</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod rem ratione nemo nulla voluptatum sapiente modi
+        corporis dolore accusantium tempore dolor pariatur quam dicta, voluptas incidunt labore iusto quaerat velit.</p>
+      <p style="background-color: blueviolet;">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique eum ea consequuntur natus voluptatibus
+        voluptatum voluptas quaerat id quae iusto dolores nemo labore possimus minima, eveniet cum repellendus
+        architecto
+        atque.
+      </p>
+
+      <span style="background-color: blueviolet;">Esta es una etique en linea</span> <span>Otra span</span>
+      <img src="/imagenes/cuerpohtml.png" alt="">
+      <img src="/imagenes/descarga.png" alt="">
+      <br>
+      <a href="index.html#inicio"><img src="/imagenes/manito.png" alt="" width="80px" height="auto"></a>
+    </article>
+
+    <hr>
+    <br>
+
+
+    <article>
+      <h2 id="semantica">Etiquetas semanticas</h2>
+      <p>Sirven para organizar nuestra aplicacion y la estructura que estemos construyendo.</p>
+
+      <img src="/imagenes/semantica2.png" alt="" width="450px">
+
+      <header>
+        <p>la etiqueta header es la cabecera que usaremos en nuestra aplicacion</p>
+        <nav>etiqueta nav sirva para navegación puede ser externa o interna</nav>
+      </header>
+      <main>
+        <p>etiqueta main es una etiqueta contenedora general y se usa 1 por página</p>
+      </main>
+      <section>etiqueta section es la etiqueta donde guardamos informacion o contenido general</section>
+      <article>etiqueta article es la etiqueta que tiene contenido o informacion que habla de si mismo o autoreferido
+      </article>
+      <aside>representa informacion secundaria</aside>
+      <footer>Pie de página</footer>
+
+      <a href="index.html#inicio"><img src="/imagenes/manito.png" alt="" width="80px" height="auto"></a>
+    </article>
+    <hr>
+    <br>
+    <article>
+      <h2 id="listas">Listas</h2>
+      <p>Existen 3 tipos de listas. Listas ordenas que se ingresan con la etiqueta ol, listas desordenadas con la
+        etiqueta
+        ul, y las listas de definición</p>
+      <h4>Listas ordenadas</h4>
+      <h5>Jugadores seleccion nacional Argentina</h5>
+      <ol start="5">
+        <li>Lionel messi</li>
+        <li>Julian Alvarez</li>
+        <li>Enzo Fernandez</li>
+        <li>Di Maria</li>
+      </ol>
+      <h4>Listas desordenadas</h4>
+      <ul>
+        <li>Messi</li>
+        <li>Alvarez</li>
+        <li>Di Maria</li>
+        <li>Fernandez</li>
+      </ul>
+
+      <h4>Listas de definición</h4>
+      <h5>Equipos Argentinos</h5>
+      <dl>
+        <dt>Boca Juniors</dt>
+        <dd>Camiseta azul y amarilla</dd>
+        <br>
+        <dt>River plate</dt>
+        <dd>Camiseta blanca y roja</dd>
+        <br>
+        <dt>Independiente</dt>
+        <dd>Camiseta roja</dd>
+      </dl>
+      <a href="index.html#inicio"><img src="/imagenes/manito.png" alt="" width="80px" height="auto"></a>
+    </article>
+    <hr>
+    <br>
+
+    <h2 id="enlaces">Enlaces internos, exteneros</h2>
+    <p>Los enlaces o redireccionamiento se hacen con la etiqueta a y tiene atributos editables</p>
+    <article>
+      <h4>Enlaces externos</h4>
+
+      <a href="https://www.google.com.ar" target="_blank" rel="noreferrer">Página de google</a>
+      <p>nos redireccionamos a un enlace externo completando el href la direccion completa incluida el https://www......
+      </p>
+
+      <a href="https://www.instagram.com" target="_blank"><img src="/imagenes/instagram.jpg" alt="" width="100px"
+          height="auto"></a>
+
+    </article>
+
+
+
+    <article>
+      <h4>Enlaces internos</h4>
+      <h5>Enlace entre páginas</h5>
+      <p>Nos redireccionamos entre páginas con el nombre del archivo html.</p>
+
+      <a href="/tablas.html">Página de tablas</a>
+
+      <h5>Enlaces entre contenido</h5>
+      <p>Nos redireccionamos entre contenido en la misma página o podemos saltar a otro contenido en una página
+        diferente
+        pero dentro de nuestro proyecto y usamos el id en el href para completar la ruta de direccion siempre
+        mencionando
+        el
+        archivo donde este posicionado ese id</p>
+    </article>
+    <article>
+
+      <h5 id="especiales">Enlaces a protocolos especiales</h5>
+      <h6>Mail</h6>
+      <a href="mailto:direccionmail@gmail.com">Mail</a>
+      <h6>Telefono</h6>
+      <a href="tel:381545421">telefono</a>
+      <h6>Whatsapp</h6>
+      <a href="https://api.whatsapp.com/send?phone=381325421454&text=Hola"><img src="/imagenes/wathsup.png" alt=""
+          width="80px" height="80px"></a>
+    </article>
+
+
+    <hr>
+    <br>
+    <article>
+      <h2 id="tablas2">tablas</h2>
+      <a href="tablas.html">Link a tablas</a>
+      <br>
+      <h2>Ejercicio</h2>
+      <h4>Fixture mundial</h4>
+
+      <ol>
+        <li>Crear una tabla con 4 grupos con 4 equipos</li>
+        <li>tabla debe contener nombre seleccion, ganados, empatados, perdidos, gf, gc, puntos</li>
+        <li>tabla con 4cuartos de finales donde el 1°del grupo a vs 2°grupo b, el 1°grupo B vs 2° grupo A, 1° grupo C vs
+          2°
+          grupo d y 1°grupo D vs 2° grupo C </li>
+        <li>tabla semifinales ganador llave 1 de 4 y el ganadar llave 2 4 luego el ganador llave 3 de cuartos y el
+          ganador
+          llave 4 de cuartos</li>
+        <li>tabla 3 y 4 puesto</li>
+        <li>tabla final</li>
+      </ol>
+      <p>* A partir de 4 de finales la tabla debe mostrar los equipos con el resultado</p>
+      <ol>
+        <li>Cada seleccion tiene un enlace donde mostrara sus jugadores y cuerpo tecnico en una lista puede ser el
+          enlace
+          en
+          la misma pagina o diferentes páginas</li>
+
+      </ol>
+    </article>
+    <hr>
+    <br>
+    <h2 id="estilos">Estilos en html</h2>
+    <h4>Tenemos 3 formas de dar estilos</h4>
+    <ol>
+      <li>Estilo en la misma etiqueta</li>
+      <li>Estilo en el head</li>
+      <li>Linkeando un archivo css</li>
+    </ol>
+
+    <h2 id="audioVideo">Audio y video</h2>
+    <a href="audioyVideo.html">Link a la página de audio y video</a>
+    <br><br>
+    <hr>
+    <br>
+
+    <article>
+      <h2 id="acordeon">Acordeon</h2>
+      <p>El acordeon se aplica con la etiqueta details que es de apertura y cerrado, todo lo que entre adentro forma
+        parte
+        del acordeon, para armar el titulo se usa la etiqueta summary que tambien es de apertura y cerrado.</p>
+
+
+
+      <details open>
+        <summary>HTML</summary>
+        <img src="/imagenes/descarga.png" alt="html" width="80px" height="auto">
+        <ul>
+          <li>Lenguaje de marcado</li>
+          <li>Realizar estructura de un sitio o app</li>
+          <li>Usar las semanticas de html</li>
+        </ul>
+
+      </details>
+
+      <details open>
+        <summary>HTML</summary>
+        <img src="/imagenes/descarga.png" alt="html" width="80px" height="auto">
+        <ul>
+          <li>Lenguaje de marcado</li>
+          <li>Realizar estructura de un sitio o app</li>
+          <li>Usar las semanticas de html</li>
+        </ul>
+
+      </details>
+
+      <details>
+        <summary>CSS</summary>
+      </details>
+
+      <details>
+        <summary><img src="/imagenes/semantica.png" alt="" width="80px" height="auto"></summary>
+        <h4>La semántica en html</h4>
+        <h6>Ventajas</h6>
+        <ul>
+          <li>Ordena el codigo</li>
+          <li>Interpreta mejor los motoress de busqueda</li>
+        </ul>
+      </details>
+    </article>
+
+    <br>
+    <hr>
+    <br>
+
+    <article>
+      <h2 id="formularios">Formularios</h2>
+      <a href="formularios.html">Página de formularios</a>
+    </article>
+
+
+    <br>
+    <br>
+    <a href="index.html#inicio"><img src="/imagenes/manito.png" alt="" width="80px" height="auto"></a>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+  </main>
+</body>
+
+
+</html>
